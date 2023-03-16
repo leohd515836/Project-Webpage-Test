@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>我的网站</title>
+	<style>
+		/* 设置样式 */
+		ul {
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+		}
+		li {
+			padding: 8px 16px;
+			background-color: #f2f2f2;
+			cursor: pointer;
+		}
+		li:hover {
+			background-color: #ddd;
+		}
+	</style>
+</head>
+<body>
+	<h1>欢迎来到我的网站</h1>
+	<!-- 目录 -->
+	<ul>
+		<li><a href="#">首页</a></li>
+		<li><a href="#">关于我们</a></li>
+		<li><a href="#">联系我们</a></li>
+	</ul>
+
+	<script>
+		// 为列表项添加点击事件监听器
+		document.querySelectorAll('li').forEach(item => {
+			item.addEventListener('click', () => {
+				// 获取列表项中的链接地址
+				const link = item.querySelector('a').getAttribute('href');
+				// 跳转到链接地址
+				window.location.href = link;
+			});
+		});
+	</script>
+</body>
+</html>
