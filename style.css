@@ -8,6 +8,7 @@ li {
     padding: 8px 16px;
     background-color: #f2f2f2;
     cursor: pointer;
+    margin: auto;
 }
 li:hover {
     background-color: #ddd;
@@ -16,18 +17,48 @@ li:hover {
 /* 将网站标题居中显示并修改样式 */
 h1 {
     text-align: center;
-    font-size: 2rem;
+    font-size: 4rem;
     font-weight: bold;
     color: green;
 }
 
 a {
-    color: green
+    color: green; 
+    font-size: 2rem;
 }
 
 body {
     background-color: rgb(166, 194, 166);
 }
+
+audio {
+    display: block;
+    margin: auto;
+}
+
+iframe {
+    display: block;
+    margin: auto;
+}
+
+button {
+    background-color: #4CAF50; /* 设置背景颜色 */
+    border: none; /* 去除边框 */
+    color: white; /* 设置文本颜色 */
+    padding: 15px 32px; /* 设置内边距 */
+    text-align: center; /* 设置文本居中 */
+    text-decoration: none; /* 去除下划线 */
+    display: inline-block; /* 转换为行内块元素 */
+    font-size: 16px; /* 设置文本大小 */
+    margin: 4px 2px; /* 设置外边距 */
+    cursor: pointer; /* 鼠标悬停时显示手型光标 */
+    border-radius: 5px; /* 设置圆角边框 */
+  }
+  
+  button:hover {
+    background-color: #3e8e41; /* 鼠标悬停时设置背景颜色 */
+  }
+  
 
 .center {
 	display: flex;
@@ -38,7 +69,8 @@ body {
 .container {
     align-self: center;
     align-items: center;
-    max-width: 670px;
+    max-width: 900px;
     margin: 0 auto;
     padding: 0 15px;
 }
+
