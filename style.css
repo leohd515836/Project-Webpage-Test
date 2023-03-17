@@ -20,6 +20,7 @@ h1 {
     font-size: 4rem;
     font-weight: bold;
     color: green;
+    margin-bottom: 100px;
 }
 
 a {
@@ -49,7 +50,7 @@ button {
     text-align: center; /* 设置文本居中 */
     text-decoration: none; /* 去除下划线 */
     display: inline-block; /* 转换为行内块元素 */
-    font-size: 16px; /* 设置文本大小 */
+    font-size: 2rem; /* 设置文本大小 */
     margin: 4px 2px; /* 设置外边距 */
     cursor: pointer; /* 鼠标悬停时显示手型光标 */
     border-radius: 5px; /* 设置圆角边框 */
