@@ -28,3 +28,17 @@ a {
 body {
     background-color: rgb(166, 194, 166);
 }
+
+.center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.container {
+    align-self: center;
+    align-items: center;
+    max-width: 670px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
