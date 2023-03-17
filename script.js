@@ -12,5 +12,5 @@ const button = document.getElementById('homepage');
   
 // 添加点击事件监听器
 button.addEventListener('click', () => {
-  window.location.href = 'homepage.html';
+  window.location.href = 'index.html';
 });
